@@ -9,8 +9,8 @@ setup(
   url = 'https://github.com/terminal-labs/domainwall',
   download_url = 'https://github.com/terminal-labs/domainwall/archive/master.zip',
   install_requires=[
-          'click',
-      ],
+      "standardmodel@git+https://github.com/terminal-labs/standardmodel.git",
+    ],
   classifiers=[  # Optional
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
